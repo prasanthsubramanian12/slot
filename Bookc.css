@@ -1,0 +1,192 @@
+body{
+    overflow-x: hidden;
+}
+.youtube
+{
+    width:760px;
+    height:415px;
+    border-radius: 10px;
+}
+.coursemain
+{
+    background-color: rgb(185, 236, 236);
+    margin-left: 18%;
+    width: 1200px;
+    height:max-content; 
+    display: block;
+    gap: 40px;
+    padding-bottom: 20px;
+}
+.flexrow
+{
+    display: flex;
+    flex-direction: row;
+}
+.bookbtn
+{
+    color: white;
+    background-color: aqua;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: medium;
+    height: 40px;
+    width: 260px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+.videoback
+{
+    margin-left: 20px;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: rgb(249, 247, 244);
+    margin-top: 10%;
+    padding: 20px;
+    
+}
+.topicback
+{
+    margin-left: 20px;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: rgb(254, 253, 252);
+    margin-top: 2%;
+    padding: 20px;
+    width:770px;
+    height:485px;
+    margin-bottom: 10%;
+}
+.bookflex
+{
+    padding-top: 180px;
+    display: block;
+}
+.assdetail
+{
+    background-color: azure;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.coursebtn
+{
+    color: black;
+    background-color:antiquewhite;
+    text-align: left;
+    font-size: medium;
+    height: 40px;
+    width: 750px;
+    border-radius: 10px;
+    border-width: 0px;
+    margin-top: 10px;
+}
+.coursebtn:hover
+{
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    background-color: aqua;
+}
+.btnflex
+{
+    display: block;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.black{
+    background-color: black;
+    opacity: .7;
+    position: fixed;
+    width: 100%;
+    height: 170vh;
+    top: 0 ;
+    left: 0;
+    margin-bottom: 10%;
+}
+
+.assign{
+    background-color: white;
+    display: block;
+    justify-content: center;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    position: fixed;
+    top: 20%;
+    left: 27%;
+    margin: 7%;
+}
+.Task
+{
+    background-color: azure;
+    width: 100%;
+    height: 100%;
+    
+}
+.assign input{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+
+}
+.assign textarea{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    
+}
+.assign button{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+}
+.res{
+    width: 80px;
+    height: 40px;
+}
+.optionbox
+{
+    width: 80%;
+    height: 40px;
+    border-width: 3px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.optionbox:hover
+{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-color: aqua;
+}
+.b
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.optionflex
+{
+    display: block;
+  
+}
+.bbtn
+{
+    width: 80%;
+    height: 40px;
+    border-width: 3px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.cbtn
+{
+    width: 80%;
+    height: 40px;
+    border-width: 3px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.cp{
+    margin-top: -3%;
+    margin-left: -4%;
+}
